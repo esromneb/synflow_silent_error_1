@@ -5,12 +5,19 @@
 package com.x.x;
 
 network Top {
-	import com.x.x.T1;
+//	import com.x.x.T1;
 	import com.x.x.T2;
-	
-	insta = new T1();
+
+	insta = new task {
+		in u8 a;
+
+		void loop() {
+			a.read();
+		}
+	};
+
 	instb = new T2();
-	
+
 	instb.writes(insta.a);
-	
+
 }
