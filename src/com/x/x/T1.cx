@@ -1,0 +1,9 @@
+package com.x.x;
+
+task T1 {
+	in u8 a;
+
+	void loop() {
+		a.read();
+	}
+}

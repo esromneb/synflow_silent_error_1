@@ -1,0 +1,16 @@
+/*
+ * Copyright (c) 2014 Ben
+ * All rights reserved.
+ */
+package com.x.x;
+
+network Top {
+	import com.x.x.T1;
+	import com.x.x.T2;
+	
+	insta = new T1();
+	instb = new T2();
+	
+	instb.writes(insta.a);
+	
+}

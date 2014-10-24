@@ -1,0 +1,9 @@
+package com.x.x;
+
+task T2 {
+	out u8 b;
+
+	void loop() {
+		b.write(0x42);
+	}
+}
